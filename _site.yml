@@ -1,0 +1,13 @@
+
+name: "fm5990-python-website"
+output_dir: "."
+navbar:
+  title: "FM 5990 - Spring 2019"
+  left:
+    - text: "Syllabus"
+      href: syllabus.html
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    css: style.css

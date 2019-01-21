@@ -1,0 +1,102 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+&nbsp;
+
+### **Syllabus**
+
+&nbsp;
+
+#### Instructor & Contact
+**Pritam Dalal**
+
+email: dalal030@umn.edu
+
+github: pritamdalal
+
+office hours: Tuesdays 710p-8p Vincent 313 (or by appointment)
+
+
+&nbsp;
+
+#### Logistics
+We meet every Tuesday, from 1/22/2019 - 4/30/2019.  There will be no class on 3/19, due to Spring Break.  Our class meets from 5:30p-7:10p, and our meeting location in Vincent 313.
+
+&nbsp;
+
+#### Course Overview
+The purpose of this course is to introduce the R programming language as a computing tool for data science. As this is a course for the Master of Financial Mathematics program, all in-class examples and homework assignments will involve financial data.
+
+There is a diverse mix of student in this course, ranging from full-time MFM students, to finance professionals, to non-finance professionals. I will do my best to accomodate various levels of familiarity with both programming and finance.  The more of a beginner you are in either area, the more supplemental reading you will have to do to follow along.
+
+
+I will teach this course assuming no prior familiarity with Python.  However, as with any programming class, the more prior exposure you have to programming in general, the easier it will be.  Students with strong programming backgrounds will also find this coure valuable.  They can spend less time working on the foundational skills, and more time digging into the rich financial data sets that we will have at our disposal.
+
+Here is a very rough course schedule:
+
+1. Data Analysis & Visualisation (6 weeks): chapters 1-4 of *Python Data Science Handbook* (*PDSH*) + finance examples/exercises from Pritam.
+
+1. Group Project (3 weeks): putting together your skills from the first part of the course into a data analysis.
+
+1. Machine Learning: chapter 5 of *PDSH* + finance examples/exercises from Pritam.
+
+
+&nbsp;
+ 
+#### Hardware & Software
+Students are expected to have access to a computer that is capable of running Python 3.7 and Jupyter Notebooks.  It will be most convenient if you install the Anaconda distribution.  All this software is free.  
+
+&nbsp;
+
+#### Primary Texts (free)
+There are two required textbooks that we will systematically work through over the course of the semester.  They are both available for free online.  Physical copies can also be purchase, if you wish, but buying them is not necessary.  (I exclusively use the online versions and I actally prefer it.)
+
+
+[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake Vanderplas
+
+
+[A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
+
+&nbsp;
+
+#### Supplemental Texts (also free)
+Depending on your finance background, you may need to do some additional finance reading.  Hull's book is great. It is currently on it's 10th Edition, but a PDF of the 9th edition can be found online for free.  My book, *Learning Options from Data*, is a work in progress, but it may still be useful for brushing up on finance concepts.
+
+[Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
+
+[Learning Options from Data](https://pritamdalal.github.io/lod_book/) - Pritam Dalal
+
+
+&nbsp;
+
+
+#### Grading
+This is an elective pass/fail course.  The determination of pass/fail will be largely based on a good faith effort with the mid-semester analysis project. 
+
+
+&nbsp;
+
+
+#### Project
+There will be one finance related analysis project in the middle of the semester.  You will work on this project in groups.  I will determine the groups, and assign you the problem.  I am flexible on the content of this project, so if you have something that you would like to work on, please feel free to coordinate with me.
+
+
+&nbsp;
+
+#### Exercises and Reading
+I will regulary post exercises (in the form of Jupyter Notebooks) for you to work through.  I will also post solutions.  I highly recommend working through the homeworks as it will help solidify your understading material.
+
+I will also assign reading most weeks, and I will teach the next class assuming that you have done the reading.
+
+Between working through the exercises and completing the reading assignments each week, you should be well prepared for each class.
+
+
+
+
+

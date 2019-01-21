@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">FM 5990 - Spring 2019</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p> </p>
+<div id="syllabus" class="section level3">
+<h3><strong>Syllabus</strong></h3>
+<p> </p>
+<div id="instructor-contact" class="section level4">
+<h4>Instructor &amp; Contact</h4>
+<p><strong>Pritam Dalal</strong></p>
+<p>email: <a href="mailto:dalal030@umn.edu">dalal030@umn.edu</a></p>
+<p>github: pritamdalal</p>
+<p>office hours: Tuesdays 710p-8p Vincent 313 (or by appointment)</p>
+<p> </p>
+</div>
+<div id="logistics" class="section level4">
+<h4>Logistics</h4>
+<p>We meet every Tuesday, from 1/22/2019 - 4/30/2019. There will be no class on 3/19, due to Spring Break. Our class meets from 5:30p-7:10p, and our meeting location in Vincent 313.</p>
+<p> </p>
+</div>
+<div id="course-overview" class="section level4">
+<h4>Course Overview</h4>
+<p>The purpose of this course is to introduce the R programming language as a computing tool for data science. As this is a course for the Master of Financial Mathematics program, all in-class examples and homework assignments will involve financial data.</p>
+<p>There is a diverse mix of student in this course, ranging from full-time MFM students, to finance professionals, to non-finance professionals. I will do my best to accomodate various levels of familiarity with both programming and finance. The more of a beginner you are in either area, the more supplemental reading you will have to do to follow along.</p>
+<p>I will teach this course assuming no prior familiarity with Python. However, as with any programming class, the more prior exposure you have to programming in general, the easier it will be. Students with strong programming backgrounds will also find this coure valuable. They can spend less time working on the foundational skills, and more time digging into the rich financial data sets that we will have at our disposal.</p>
+<p>Here is a very rough course schedule:</p>
+<ol style="list-style-type: decimal">
+<li><p>Data Analysis &amp; Visualisation (6 weeks): chapters 1-4 of <em>Python Data Science Handbook</em> (<em>PDSH</em>) + finance examples/exercises from Pritam.</p></li>
+<li><p>Group Project (3 weeks): putting together your skills from the first part of the course into a data analysis.</p></li>
+<li><p>Machine Learning: chapter 5 of <em>PDSH</em> + finance examples/exercises from Pritam.</p></li>
+</ol>
+<p> </p>
+</div>
+<div id="hardware-software" class="section level4">
+<h4>Hardware &amp; Software</h4>
+<p>Students are expected to have access to a computer that is capable of running Python 3.7 and Jupyter Notebooks. It will be most convenient if you install the Anaconda distribution. All this software is free.</p>
+<p> </p>
+</div>
+<div id="primary-texts-free" class="section level4">
+<h4>Primary Texts (free)</h4>
+<p>There are two required textbooks that we will systematically work through over the course of the semester. They are both available for free online. Physical copies can also be purchase, if you wish, but buying them is not necessary. (I exclusively use the online versions and I actally prefer it.)</p>
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> - Jake Vanderplas</p>
+<p><a href="https://jakevdp.github.io/WhirlwindTourOfPython/">A Whirlwind Tour of Python</a> - Jake Vanderplas</p>
+<p> </p>
+</div>
+<div id="supplemental-texts-also-free" class="section level4">
+<h4>Supplemental Texts (also free)</h4>
+<p>Depending on your finance background, you may need to do some additional finance reading. Hull’s book is great. It is currently on it’s 10th Edition, but a PDF of the 9th edition can be found online for free. My book, <em>Learning Options from Data</em>, is a work in progress, but it may still be useful for brushing up on finance concepts.</p>
+<p><a href="hull_9th_edition.pdf">Options, Futures, and Other Derivatives</a> - John C. Hull</p>
+<p><a href="https://pritamdalal.github.io/lod_book/">Learning Options from Data</a> - Pritam Dalal</p>
+<p> </p>
+</div>
+<div id="grading" class="section level4">
+<h4>Grading</h4>
+<p>This is an elective pass/fail course. The determination of pass/fail will be largely based on a good faith effort with the mid-semester analysis project.</p>
+<p> </p>
+</div>
+<div id="project" class="section level4">
+<h4>Project</h4>
+<p>There will be one finance related analysis project in the middle of the semester. You will work on this project in groups. I will determine the groups, and assign you the problem. I am flexible on the content of this project, so if you have something that you would like to work on, please feel free to coordinate with me.</p>
+<p> </p>
+</div>
+<div id="exercises-and-reading" class="section level4">
+<h4>Exercises and Reading</h4>
+<p>I will regulary post exercises (in the form of Jupyter Notebooks) for you to work through. I will also post solutions. I highly recommend working through the homeworks as it will help solidify your understading material.</p>
+<p>I will also assign reading most weeks, and I will teach the next class assuming that you have done the reading.</p>
+<p>Between working through the exercises and completing the reading assignments each week, you should be well prepared for each class.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
