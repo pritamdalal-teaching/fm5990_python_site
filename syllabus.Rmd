@@ -31,7 +31,7 @@ We meet every Tuesday, from 1/22/2019 - 4/30/2019.  There will be no class on 3/
 &nbsp;
 
 #### Course Overview
-The purpose of this course is to introduce the R programming language as a computing tool for data science. As this is a course for the Master of Financial Mathematics program, all in-class examples and homework assignments will involve financial data.
+The purpose of this course is to introduce the Python programming language as a computing tool for data science. As this is a course for the Master of Financial Mathematics program, all in-class examples and homework assignments will involve financial data.
 
 There is a diverse mix of student in this course, ranging from full-time MFM students, to finance professionals, to non-finance professionals. I will do my best to accomodate various levels of familiarity with both programming and finance.  The more of a beginner you are in either area, the more supplemental reading you will have to do to follow along.
 
@@ -44,7 +44,7 @@ Here is a very rough course schedule:
 
 1. Group Project (3 weeks): putting together your skills from the first part of the course into a data analysis.
 
-1. Machine Learning: chapter 5 of *PDSH* + finance examples/exercises from Pritam.
+1. Machine Learning (6 weeks): chapter 5 of *PDSH* + finance examples/exercises from Pritam.
 
 
 &nbsp;

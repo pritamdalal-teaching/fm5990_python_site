@@ -6,6 +6,8 @@ navbar:
   left:
     - text: "Syllabus"
       href: syllabus.html
+    - text: "Weekly Plan"
+      href: weekly_plan.html
 output:
   html_document:
     theme: united
