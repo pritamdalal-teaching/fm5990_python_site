@@ -1,0 +1,16 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+&nbsp;
+
+### **Tutorials and Exercises**
+
+&nbsp;
+
+[All Tutorials and Exercises](fm5990_python_tutorial_and_exercise_20190122.zip)

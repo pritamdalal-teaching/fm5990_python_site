@@ -1,0 +1,17 @@
+---
+title: ""
+---
+
+&nbsp;
+
+### **Slides**
+
+&nbsp;
+
+
+[01 - Housing Keeping](slide/01_housekeeping.pdf)
+
+[02 - Introduction to Python](slide/02_python_intro.pdf)
+
+
+

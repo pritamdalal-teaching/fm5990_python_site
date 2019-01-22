@@ -8,6 +8,10 @@ navbar:
       href: syllabus.html
     - text: "Weekly Plan"
       href: weekly_plan.html
+    - text: "Tutorial and Exercise"
+      href: tutorial_and_exercise.html
+    - text: "Slides"
+      href: slide.html
 output:
   html_document:
     theme: united
