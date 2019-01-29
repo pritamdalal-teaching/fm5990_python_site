@@ -13,5 +13,7 @@ title: ""
 
 [02 - Introduction to Python](slide/02_python_intro.pdf)
 
+[03 - A Guide to the Programming Books](slide/03_guide_to_programming_book.pdf)
+
 
 
