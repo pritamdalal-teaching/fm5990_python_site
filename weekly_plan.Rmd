@@ -39,6 +39,27 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 #### Week 2 (1/29) Cancelled Due to Weather
 
 
+<!-- <span style="color:gray":>*Material Covered:*</span>  -->
+
+<!-- **Topics:** how to use the texts for the course, numpy arrays, pandas dataframes, indexing, slicing, masking -->
+
+<!-- **Slides:** 03_guide_to_programming_book -->
+
+<!-- **Tutorials:** 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking (try to work through these on your own, but we will still go over them in class next time) -->
+
+<!-- <span style="color:gray":>*Assignment:*</span>  -->
+
+<!-- **Coding Exercise:** 02_option_price_intro (try this) -->
+
+<!-- **Required Reading:** PDSH 3.8; WTP 9 (do the reading) -->
+
+<!-- **Supplemental Reading:** None -->
+
+&nbsp;
+
+#### Week 3 (2/5) Introduction to `pandas` and `numpy`
+
+
 <span style="color:gray":>*Material Covered:*</span> 
 
 **Topics:** how to use the texts for the course, numpy arrays, pandas dataframes, indexing, slicing, masking
@@ -57,22 +78,25 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 &nbsp;
 
-#### Week 3 (1/29) Accessing Data - Indexing and Slicing
+
+#### Week 4 (2/12) Functions and Finance Applications
+
 
 <span style="color:gray":>*Material Covered:*</span> 
 
-**Topics:** how to use the texts for the course, numpy arrays, pandas dataframes, indexing, slicing, masking
+**Topics:** if-else, iteration, calculating returns, writing functions, calculating option payoffs, aggregation and grouping
 
-**Slides:** 03_guide_to_programming_book
+**Slides:** NA
 
-**Tutorials:** 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking
+**Tutorials:** 06_calculating_returns, 07_functions, 08_calculating_option_payoff, 09_aggregation_grouping_part_1
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** 
+**Coding Exercise:** TBA
 
-**Required Reading:**
+**Required Reading:** WTP 8, 11; PDSH 3.7-3.8, 3.12
 
-**Supplemental Reading:**
+**Supplemental Reading:** LOD 5.4 (in-progress); Python for Data Analysis (McKinney) - Chapter 9 (pp 251-274); Hull - Chapter 15 (pp 325-329)
 
 &nbsp;
+
