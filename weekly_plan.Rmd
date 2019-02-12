@@ -66,7 +66,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Slides:** 03_guide_to_programming_book
 
-**Tutorials:** 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking (try to work through these on your own, but we will still go over them in class next time)
+**Tutorials:** 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking
 
 <span style="color:gray":>*Assignment:*</span> 
 
