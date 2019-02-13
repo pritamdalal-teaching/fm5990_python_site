@@ -92,7 +92,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** TBA
+**Coding Exercise:** 03_stock_pnl
 
 **Required Reading:** WTP 8, 11; PDSH 3.7-3.8, 3.12
 

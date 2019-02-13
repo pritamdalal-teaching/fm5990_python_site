@@ -13,4 +13,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-[All Tutorials and Exercises - Updated 2/12/2019](fm5990_python_tutorial_and_exercise_20190212.zip)
+[All Tutorials and Exercises - Updated 2/13/2019](fm5990_python_tutorial_and_exercise_20190213.zip)
