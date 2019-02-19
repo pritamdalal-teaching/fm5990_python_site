@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 
@@ -248,6 +251,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -294,15 +392,52 @@ $(document).ready(function () {
 
 
 <p> </p>
-<div id="financial-data-analysis-and-visualization-in-python" class="section level3">
-<h3><strong>Financial Data Analysis and Visualization in Python</strong></h3>
-<p>Welcome to the course website for FM 5990 - Spring 2019.</p>
+<div id="reading" class="section level3">
+<h3><strong>Reading</strong></h3>
 <p> </p>
-<p><img src="index_files/figure-html/services_art-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p>This purpose of this page is to list all reading assignments by subject, and roughly in chronological order. Here are a lists of the texts that will be referenced throughout the course.</p>
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> - Jake Vanderplas</p>
+<p><a href="https://jakevdp.github.io/WhirlwindTourOfPython/">A Whirlwind Tour of Python</a> - Jake Vanderplas</p>
+<p><a href="python_for_finance.pdf">Python for Finance</a> - Yves Hilpisch</p>
+<p><a href="hull_9th_edition.pdf">Options, Futures, and Other Derivatives</a> - John C. Hull</p>
+<p><a href="https://pritamdalal.github.io/lod_book/">Learning Options from Data</a> - Pritam Dalal</p>
+<p> </p>
+<div id="numpy---pdsh-sections" class="section level5">
+<h5><code>numpy</code> - PDSH sections</h5>
+<p>2.1 understanding data-types in ipython</p>
+<p>2.2 the basics of numpy arrays</p>
+<p>2.3 computations on numpy arrays: universal functions</p>
+<p>2.4 aggregations: min, max, and everthing in between</p>
+<p>2.5 computations on arrays: broadcasting</p>
+<p>2.6 comparison, mask, and boolean logic</p>
+<p>2.7 fancy indexing</p>
+<p> </p>
+</div>
+<div id="pandas---pdsh-sections" class="section level5">
+<h5><code>pandas</code> - PDSH sections</h5>
+<p>3.1 introduction to pandas objects</p>
+<p>3.2 data indexing and selection</p>
+<p>3.3 operating on data in pandas</p>
+<p>3.7 combining datasets: merge and join</p>
+<p>3.8 aggregation and grouping</p>
+<p>3.12 high-performance pandas: eval() and query()</p>
+<p> </p>
+</div>
+<div id="pandas---p4f-sections" class="section level5">
+<h5><code>pandas</code> - P4F sections</h5>
+<p>6.1 - <code>pandas</code> basics (pp 137 - 151)</p>
+<p> </p>
+</div>
+<div id="data-visualization---p4f-sections" class="section level5">
+<h5>Data Visualization - P4F sections</h5>
+<p>5.1 - two dimensional plotting (pp 109 - 128)</p>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

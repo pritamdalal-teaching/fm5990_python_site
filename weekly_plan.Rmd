@@ -1,6 +1,11 @@
 ---
 title: ""
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: false  ## if you want number sections at each table header
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +21,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 &nbsp;
 
 
-#### Week 1 (1/22) Preliminaries
+#### 01/22 - 01 - Preliminaries
 
 <span style="color:gray":>*Material Covered:*</span> 
 
@@ -34,30 +39,15 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Supplemental Reading:** LOD - Options 101
 
-&nbsp;
-
-#### Week 2 (1/29) Cancelled Due to Weather
-
-
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
-
-<!-- **Topics:** how to use the texts for the course, numpy arrays, pandas dataframes, indexing, slicing, masking -->
-
-<!-- **Slides:** 03_guide_to_programming_book -->
-
-<!-- **Tutorials:** 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking (try to work through these on your own, but we will still go over them in class next time) -->
-
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
-
-<!-- **Coding Exercise:** 02_option_price_intro (try this) -->
-
-<!-- **Required Reading:** PDSH 3.8; WTP 9 (do the reading) -->
-
-<!-- **Supplemental Reading:** None -->
 
 &nbsp;
 
-#### Week 3 (2/5) Introduction to `pandas` and `numpy`
+#### 01/29 - 02 - Cancelled Due to Weather
+
+
+&nbsp;
+
+#### 02/05 - 03 - Introduction to `pandas` and `numpy`
 
 
 <span style="color:gray":>*Material Covered:*</span> 
@@ -70,16 +60,16 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** 02_option_price_intro (try this)
+**Coding Exercise:** 02_option_price_intro
 
-**Required Reading:** PDSH 3.8; WTP 9 (do the reading)
+**Required Reading:** PDSH 3.8; WTP 9
 
 **Supplemental Reading:** None
 
 &nbsp;
 
 
-#### Week 4 (2/12) Functions and Finance Applications
+#### 02/12 - 04 - Functions and Finance Applications
 
 
 <span style="color:gray":>*Material Covered:*</span> 
@@ -101,7 +91,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 &nbsp;
 
 
-#### Week 5 (2/19) `merge()`, `groupby()`, `agg()`
+#### 02/19 - 05 - `merge()`, `groupby()`, `agg()`
 
 
 <span style="color:gray":>*Material Covered:*</span> 
@@ -118,7 +108,8 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Required Reading:** P4F 5.1 (two dimensional plotting - pp 109-128); PDSH 4.1-4.2
 
-**Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151);
+**Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151)
+
 &nbsp;
 
 

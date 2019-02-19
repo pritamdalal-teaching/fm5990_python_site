@@ -13,4 +13,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
+At any given time, all completed tutorials and exercises can be downloaded by clicking on the link below.  At the start of each class, you will likely have to download the latest set of tutorials.  The majority of class time will be spent working through tutorials together.
+
+
 [All Tutorials and Exercises - Updated 2/19/2019](fm5990_python_tutorial_and_exercise_20190219.zip)
+
+&nbsp;
+
+#### Tutorials
+
+&nbsp;
+
+#### Exercises

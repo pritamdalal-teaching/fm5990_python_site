@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 
@@ -248,6 +251,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -274,6 +372,9 @@ $(document).ready(function () {
 <li>
   <a href="slide.html">Slides</a>
 </li>
+<li>
+  <a href="reading.html">Reading</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -295,8 +396,8 @@ $(document).ready(function () {
 <h3><strong>Weekly Plan</strong></h3>
 <p>This page will serve as a more detailed plan for weeks to come, and also a record what was covered in previous weeks.</p>
 <p> </p>
-<div id="week-1-122-preliminaries" class="section level4">
-<h4>Week 1 (1/22) Preliminaries</h4>
+<div id="preliminaries" class="section level4">
+<h4>01/22 - 01 - Preliminaries</h4>
 <p><span style="color:gray" :=""><em>Material Covered:</em></span></p>
 <p><strong>Topics:</strong> administrative housekeeping, syllabus, installing Anaconda distribution, introductory remarks about python, lists, dicts, numpy arrays, dataframes, operations on dataframe columns, aggregating calculations on dataframe columns</p>
 <p><strong>Slides:</strong> 01_housekeeping; 02_python_intro</p>
@@ -307,32 +408,24 @@ $(document).ready(function () {
 <p><strong>Supplemental Reading:</strong> LOD - Options 101</p>
 <p> </p>
 </div>
-<div id="week-2-129-cancelled-due-to-weather" class="section level4">
-<h4>Week 2 (1/29) Cancelled Due to Weather</h4>
-<!-- <span style="color:gray":>*Material Covered:*</span>  -->
-<!-- **Topics:** how to use the texts for the course, numpy arrays, pandas dataframes, indexing, slicing, masking -->
-<!-- **Slides:** 03_guide_to_programming_book -->
-<!-- **Tutorials:** 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking (try to work through these on your own, but we will still go over them in class next time) -->
-<!-- <span style="color:gray":>*Assignment:*</span>  -->
-<!-- **Coding Exercise:** 02_option_price_intro (try this) -->
-<!-- **Required Reading:** PDSH 3.8; WTP 9 (do the reading) -->
-<!-- **Supplemental Reading:** None -->
+<div id="cancelled-due-to-weather" class="section level4">
+<h4>01/29 - 02 - Cancelled Due to Weather</h4>
 <p> </p>
 </div>
-<div id="week-3-25-introduction-to-pandas-and-numpy" class="section level4">
-<h4>Week 3 (2/5) Introduction to <code>pandas</code> and <code>numpy</code></h4>
+<div id="introduction-to-pandas-and-numpy" class="section level4">
+<h4>02/05 - 03 - Introduction to <code>pandas</code> and <code>numpy</code></h4>
 <p><span style="color:gray" :=""><em>Material Covered:</em></span></p>
 <p><strong>Topics:</strong> how to use the texts for the course, numpy arrays, pandas dataframes, indexing, slicing, masking</p>
 <p><strong>Slides:</strong> 03_guide_to_programming_book</p>
 <p><strong>Tutorials:</strong> 03_numpy_pandas_intro, 04_dataframe_indexing_slicing, 05_dataframe_masking</p>
 <p><span style="color:gray" :=""><em>Assignment:</em></span></p>
-<p><strong>Coding Exercise:</strong> 02_option_price_intro (try this)</p>
-<p><strong>Required Reading:</strong> PDSH 3.8; WTP 9 (do the reading)</p>
+<p><strong>Coding Exercise:</strong> 02_option_price_intro</p>
+<p><strong>Required Reading:</strong> PDSH 3.8; WTP 9</p>
 <p><strong>Supplemental Reading:</strong> None</p>
 <p> </p>
 </div>
-<div id="week-4-212-functions-and-finance-applications" class="section level4">
-<h4>Week 4 (2/12) Functions and Finance Applications</h4>
+<div id="functions-and-finance-applications" class="section level4">
+<h4>02/12 - 04 - Functions and Finance Applications</h4>
 <p><span style="color:gray" :=""><em>Material Covered:</em></span></p>
 <p><strong>Topics:</strong> if-else, iteration, calculating returns, writing functions, calculating option payoffs, aggregation and grouping</p>
 <p><strong>Slides:</strong> NA</p>
@@ -343,8 +436,8 @@ $(document).ready(function () {
 <p><strong>Supplemental Reading:</strong> LOD 5.4 (in-progress); Python for Data Analysis (McKinney) - Chapter 9 (pp 251-274); Hull - Chapter 15 (pp 325-329)</p>
 <p> </p>
 </div>
-<div id="week-5-219-merge-groupby-agg" class="section level4">
-<h4>Week 5 (2/19) <code>merge()</code>, <code>groupby()</code>, <code>agg()</code></h4>
+<div id="merge-groupby-agg" class="section level4">
+<h4>02/19 - 05 - <code>merge()</code>, <code>groupby()</code>, <code>agg()</code></h4>
 <p><span style="color:gray" :=""><em>Material Covered:</em></span></p>
 <p><strong>Topics:</strong> joining using the <code>.merge()</code> function, aggregation and grouping, working through a more complex analysis</p>
 <p><strong>Slides:</strong> NA</p>
@@ -352,12 +445,15 @@ $(document).ready(function () {
 <p><span style="color:gray" :=""><em>Assignment:</em></span></p>
 <p><strong>Coding Exercise:</strong> TBD</p>
 <p><strong>Required Reading:</strong> P4F 5.1 (two dimensional plotting - pp 109-128); PDSH 4.1-4.2</p>
-<p><strong>Supplemental Reading:</strong> P4F 6.1 (pandas basics - pp 137-151);  </p>
+<p><strong>Supplemental Reading:</strong> P4F 6.1 (pandas basics - pp 137-151)</p>
+<p> </p>
 </div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

@@ -12,6 +12,8 @@ navbar:
       href: tutorial_and_exercise.html
     - text: "Slides"
       href: slide.html
+    - text: "Reading"
+      href: reading.html
 output:
   html_document:
     theme: united
