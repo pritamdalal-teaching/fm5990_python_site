@@ -63,6 +63,9 @@ There are two required textbooks that we will systematically work through over t
 
 [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
 
+
+[Python for Finance](python_for_finance.pdf) - Yves Hilpisch
+
 &nbsp;
 
 #### Supplemental Texts (also free)

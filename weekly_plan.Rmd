@@ -100,3 +100,26 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 &nbsp;
 
+
+#### Week 5 (2/19) `merge()`, `groupby()`, `agg()`
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** joining using the `.merge()` function, aggregation and grouping, working through a more complex analysis
+
+**Slides:** NA
+
+**Tutorials:** 10_joining_dataframes, 11_aggregation_grouping_part2, 12_occ_volume_analysis
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** TBD
+
+**Required Reading:** P4F 5.1 (two dimensional plotting - pp 109-128); PDSH 4.1-4.2
+
+**Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151);
+&nbsp;
+
+
+
