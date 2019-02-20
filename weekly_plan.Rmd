@@ -104,13 +104,40 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** TBD
+**Coding Exercise:** 04_occ_volume, 05_iwm_vs_tna (start this, it's a bit tougher)
 
 **Required Reading:** P4F 5.1 (two dimensional plotting - pp 109-128); PDSH 4.1-4.2
 
 **Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151)
 
 &nbsp;
+
+
+
+
+#### 02/19 - 06 - A Whirlwind Tour of Finance
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** I'm going to attempt to cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project.
+
+**Slides:** TBD
+
+**Tutorials:** TBD
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:* 05_iwm_vs_tna
+
+**Required Reading:** TBD
+
+**Supplemental Reading:** TBD
+
+&nbsp;
+
+
+
 
 
 
