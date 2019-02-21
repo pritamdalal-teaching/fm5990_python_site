@@ -1,6 +1,11 @@
 ---
 title: ""
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: false  ## if you want number sections at each table header
 ---
 
 ```{r setup, include=FALSE}
@@ -15,13 +20,50 @@ knitr::opts_chunk$set(echo = TRUE)
 
 At any given time, all completed tutorials and exercises can be downloaded by clicking on the link below.  At the start of each class, you will likely have to download the latest set of tutorials.  The majority of class time will be spent working through tutorials together.
 
-
-[All Tutorials and Exercises - Updated 2/19/2019](fm5990_python_tutorial_and_exercise_20190220.zip)
+[All Tutorials and Exercises - Updated 2/19/2019](fm5990_python_tutorial_and_exercise_20190221.zip)
 
 &nbsp;
 
 #### Tutorials
 
+01 - introduction to Jupyter notebooks
+
+02 - basics of python syntax and data structures
+
+03 - `numpy` and `pandas` introduction
+
+04 - `DataFrame` indexing and slicing
+
+05 - `DataFrame` masking
+
+06 - calculating returns (comparison, if-else, iteration)
+
+07 - writing functions
+
+08 - calculating option payoffs
+
+09 - aggregation and grouping (part 1)
+
+10 - joining `DataFrames` (inner joins and left-joins)
+
+11 - aggregation and grouping (part 2)
+
+12 - occ volume analysis
+
 &nbsp;
 
 #### Exercises
+
+01 - computing volume weighted average price
+
+02 - an introduction to options data
+
+03 - calculating pnl on a stock investment
+
+04 - occ volume analysis
+
+05 - TNA vs IWM - a volatility analysis
+
+06 - calculating pnl on an option
+
+07 - analysis on SPY calls

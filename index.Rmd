@@ -75,113 +75,15 @@ p2 <-
 gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 ```
 
+&nbsp;
 
-```{r, greeks_by_moniness, echo=FALSE, out.width="67%", fig.align="center"}
+#### Announcements
 
-# type = "c"
-# upx = seq(90, 110, 1)
-# strike = 100
-# time = 21/252
-# rf = 0.01
-# div = 0
-# vol = 0.25
-# 
-# option_values <-
-#   GBSCharacteristics(
-#     TypeFlag = type
-#     , S = upx
-#     , X = strike
-#     , Time = time
-#     , r = rf
-#     , b = div
-#     , sigma = vol
-#   )
-# 
-# 
-# graph_values <-
-#   tibble(
-#     upx = upx
-#     , intrinsic = map_dbl(upx, function(x) max(x - strike, 0))
-#     , px = option_values$premium
-#     , delta = option_values$delta
-#     , vega = option_values$vega / 100
-#     , theta = option_values$theta / 252
-#   )
-# 
-# 
-# p1 <-
-# ggplot(data = graph_values ) +
-#   geom_line(aes(x = upx, y = intrinsic), size = 0.75, alpha = 0.65) +
-#   geom_line(aes(x = upx, y = px - intrinsic), color = "green4", size = 1.0, alpha = 0.75) +
-#   geom_vline(xintercept = 100, color = "red", lty = "dashed") +
-#   theme(axis.title.x=element_blank()
-#         , axis.text.x=element_blank()
-#         , axis.ticks.x=element_blank()
-#         , axis.title.y=element_blank()
-#         , axis.text.y=element_blank()
-#         , axis.ticks.y=element_blank()
-#   ) +
-#   labs(
-#        x = ""
-#        ,y = ""
-#   ) +
-#   annotate("text", label = "extrinsic" , x = 92, y = 9.65, size = 4, colour = "grey37")
-# 
-# p2 <-
-# ggplot(data = graph_values ) +
-#   geom_line(aes(x = upx, y = delta), color = "blue", size = 1.0, alpha = 0.6) +
-#   geom_vline(xintercept = 100, color = "red", lty = "dashed") +
-#   theme(axis.title.x=element_blank()
-#     , axis.text.x=element_blank()
-#     , axis.ticks.x=element_blank()
-#     , axis.title.y=element_blank()
-#     , axis.text.y=element_blank()
-#     , axis.ticks.y=element_blank()
-#   ) +
-#   labs(
-#        x = ""
-#        , y = ""
-#   ) +
-#   annotate("text", label = "delta" , x = 91.5, y = 0.875, size = 4, colour = "grey37")
-# 
-# 
-# p3 <-
-# ggplot(data = graph_values ) +
-#   geom_line(aes(x = upx, y = vega), color = "orange", size = 1.0, alpha = 0.7) +
-#   geom_vline(xintercept = 100, color = "red", lty = "dashed") +
-#   theme(axis.title.x=element_blank()
-#     , axis.text.x=element_blank()
-#     , axis.ticks.x=element_blank()
-#     , axis.title.y=element_blank()
-#     , axis.text.y=element_blank()
-#     , axis.ticks.y=element_blank()
-#   ) +
-#   labs(
-#        x = ""
-#        , y = ""
-#   ) +
-#   annotate("text", label = "vega" , x = 91.5, y = .11, size = 4, colour = "grey37")
-# 
-# p4 <-
-# ggplot(data = graph_values ) +
-#   geom_line(aes(x = upx, y = theta), color = "pink", size = 1.0) +
-#   geom_vline(xintercept = 100, color = "red", lty = "dashed") +
-#   theme(axis.title.x=element_blank()
-#     , axis.text.x=element_blank()
-#     , axis.ticks.x=element_blank()
-#     , axis.title.y=element_blank()
-#     , axis.text.y=element_blank()
-#     , axis.ticks.y=element_blank()
-#   ) +
-#   labs(
-#        x = ""
-#        , y = ""
-#   ) +
-#   annotate("text", label = "theta" , x = 93, y = -0.025, size = 4, colour = "grey37")
-# 
-# 
-# 
-# gridExtra::grid.arrange(p1, p2, p3, p4
-#                         , nrow = 2)
-#                         #, top = "Greeks vs Underlying Price")
-```
+##### 2/21/2018
+
+- Exercises 06 and 07 have been added.
+
+##### 2/19/2018
+
+- Added a page called *Reading* that details all books and reading assignments for the course in chronological order.
+

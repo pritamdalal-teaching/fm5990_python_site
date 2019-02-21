@@ -71,7 +71,15 @@ There are two required textbooks that we will systematically work through over t
 #### Supplemental Texts (also free)
 Depending on your finance background, you may need to do some additional finance reading.  Hull's book is great. It is currently on it's 10th Edition, but a PDF of the 9th edition can be found online for free.  My book, *Learning Options from Data*, is a work in progress, but it may still be useful for brushing up on finance concepts.
 
-``
+
+[Python for Data Analysis](python_for_data_analysis.pdf.pdf) - Wes McKinney
+
+[Python for Finance](python_for_finance.pdf) - Yves Hilpisch
+
+[Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
+
+[Learning Options from Data](https://pritamdalal.github.io/lod_book/) - Pritam Dalal
+
 
 &nbsp;
 

@@ -21,7 +21,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 &nbsp;
 
 
-#### 01/22 - 01 - Preliminaries
+#### (01) 01/22 - preliminaries
 
 <span style="color:gray":>*Material Covered:*</span> 
 
@@ -42,12 +42,12 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 &nbsp;
 
-#### 01/29 - 02 - Cancelled Due to Weather
+#### (02) 01/29 - **cancelled**
 
 
 &nbsp;
 
-#### 02/05 - 03 - Introduction to `pandas` and `numpy`
+#### (03) 02/05 - intro to `pandas` and `numpy`
 
 
 <span style="color:gray":>*Material Covered:*</span> 
@@ -69,7 +69,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 &nbsp;
 
 
-#### 02/12 - 04 - Functions and Finance Applications
+#### (04) 02/12 - functions, iteration, aggregation
 
 
 <span style="color:gray":>*Material Covered:*</span> 
@@ -91,7 +91,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 &nbsp;
 
 
-#### 02/19 - 05 - `merge()`, `groupby()`, `agg()`
+#### (05) 02/19 - `merge()`, `groupby()`, `agg()`
 
 
 <span style="color:gray":>*Material Covered:*</span> 
@@ -100,7 +100,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Slides:** NA
 
-**Tutorials:** 10_joining_dataframes, 11_aggregation_grouping_part2, 12_occ_volume_analysis
+**Tutorials:** 10_joining_dataframes, 11_aggregation_grouping_part_2, 12_occ_volume_analysis
 
 <span style="color:gray":>*Assignment:*</span> 
 
@@ -110,17 +110,16 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Supplemental Reading:** P4F 6.1 (pandas basics - pp 137-151)
 
+
 &nbsp;
 
 
-
-
-#### 02/19 - 06 - A Whirlwind Tour of Finance
+#### (06) 02/26 - finance bootcamp
 
 
 <span style="color:gray":>*Material Covered:*</span> 
 
-**Topics:** I'm going to attempt to cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project.
+**Topics:** We cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project.
 
 **Slides:** TBD
 
@@ -128,7 +127,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:* 05_iwm_vs_tna
+**Coding Exercise:* 05_iwm_vs_tna, choose groups and e-mail me your groups
 
 **Required Reading:** TBD
 
@@ -136,7 +135,26 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 &nbsp;
 
+#### (07) 03/05 - group projects assigned
 
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** We'll discuss the group projects and start talking about data visualization.
+
+**Slides:** TBD
+
+**Tutorials:** TBD
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:* TBD
+
+**Required Reading:** TBD
+
+**Supplemental Reading:** TBD
+
+&nbsp;
 
 
 

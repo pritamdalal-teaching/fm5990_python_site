@@ -24,6 +24,8 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 [Python for Finance](python_for_finance.pdf) - Yves Hilpisch
 
+[Python for Data Analysis](python_for_data_analysis.pdf.pdf) - Wes McKinney
+
 [Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
 
 [Learning Options from Data](https://pritamdalal.github.io/lod_book/) - Pritam Dalal
@@ -62,6 +64,7 @@ This purpose of this page is to list all reading assignments by subject, and rou
 3.8 aggregation and grouping
 
 3.12 high-performance pandas: eval() and query()
+
 
 &nbsp;
 
