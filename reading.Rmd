@@ -14,7 +14,7 @@ output:
 
 &nbsp;
 
-This purpose of this page is to list all reading assignments by subject, and roughly in chronological order.  Here are a lists of the texts that will be referenced throughout the course.
+This purpose of this page is to list all reading assignments by subject, and roughly in chronological order.  Here is a list of the texts that will be referenced throughout the course.
 
 
 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake Vanderplas
@@ -22,9 +22,9 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
 
-[Python for Finance](python_for_finance.pdf) - Yves Hilpisch
-
 [Python for Data Analysis](python_for_data_analysis.pdf.pdf) - Wes McKinney
+
+[Python for Finance](python_for_finance.pdf) - Yves Hilpisch
 
 [Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
 
