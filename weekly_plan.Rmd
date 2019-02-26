@@ -121,17 +121,17 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Topics:** We cover, at a very high-level, the finance material that you will need to know for the remainder of the course.  This will be a very cursory treatment, and my intention is for you to be able to complete the project, even if you don't fully grasp all the finance.  We'll also discuss the project.
 
-**Slides:** TBD
+**Slides:** 04_finance_bootcamp
 
-**Tutorials:** TBD
+**Tutorials:** NA
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:* 05_iwm_vs_tna, choose groups and e-mail me your groups
+**Coding Exercise:** 05_iwm_vs_tna, choose groups and e-mail me your groups
 
-**Required Reading:** TBD
+**Required Reading:** NA
 
-**Supplemental Reading:** TBD
+**Supplemental Reading:** LOD 2.1-2.3, 3.2-3.3, 5.1-5.5 
 
 &nbsp;
 
@@ -148,7 +148,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:* TBD
+**Coding Exercise:** TBD
 
 **Required Reading:** TBD
 

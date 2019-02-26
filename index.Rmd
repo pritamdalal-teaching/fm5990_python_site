@@ -79,6 +79,10 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 #### Announcements
 
+##### 2/26/2018
+
+- Slides 04 have been added
+
 ##### 2/21/2018
 
 - Exercises 06 and 07 have been added.
