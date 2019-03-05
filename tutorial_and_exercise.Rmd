@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 At any given time, all completed tutorials and exercises can be downloaded by clicking on the link below.  At the start of each class, you will likely have to download the latest set of tutorials.  The majority of class time will be spent working through tutorials together.
 
-[All Tutorials and Exercises - Updated 2/21/2019](fm5990_python_tutorial_and_exercise_20190221.zip)
+[All Tutorials and Exercises - Updated 03/05/2019](fm5990_python_tutorial_and_exercise_20190305.zip)
 
 &nbsp;
 
@@ -50,6 +50,7 @@ At any given time, all completed tutorials and exercises can be downloaded by cl
 
 12 - occ volume analysis
 
+13 - data visualization with `pandas`
 &nbsp;
 
 #### Exercises

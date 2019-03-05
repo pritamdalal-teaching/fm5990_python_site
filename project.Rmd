@@ -46,7 +46,7 @@ Over the next several weeks, many of the in-class tutorials will be relevant to 
 #### Self-Directed Projects
 For those of you choosing to do your own project, that's great - I truly believe that the best way to learn data analysis is to have a project that you personally care about.  However, obviously there is more required of you to determine the steps involved.  I am happy to provide guidance in any way that I can.
 
-For working professionals in the class, if you would like to do something that is directly relevant to your work, that's great too.  If it involves proprietary data, or can only be done on your work PC, that's fine.  Just type up a description in a Jupyter notebook and e-mail it to me.
+For working professionals in the class, if you would like to do something that is directly relevant to your work, that's great too.  If it involves proprietary data, or can only be done on your work PC, that's perfectly fine.  Just type up a description in a Jupyter notebook and e-mail it to me.
 
 If you are going to choose your own project, please send me an e-mail letting me know what it is. 
 
