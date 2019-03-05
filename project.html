@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>Project</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -292,79 +292,63 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Project</h1>
 
 </div>
 
 
-<p> </p>
-<div id="syllabus" class="section level3">
-<h3><strong>Syllabus</strong></h3>
-<p> </p>
-<div id="instructor-contact" class="section level4">
-<h4>Instructor &amp; Contact</h4>
-<p><strong>Pritam Dalal</strong></p>
-<p>email: <a href="mailto:dalal030@umn.edu">dalal030@umn.edu</a></p>
-<p>github: pritamdalal</p>
-<p>office hours: Tuesdays 710p-8p Vincent 313 (or by appointment)</p>
-<p> </p>
-</div>
-<div id="logistics" class="section level4">
-<h4>Logistics</h4>
-<p>We meet every Tuesday, from 1/22/2019 - 4/30/2019. There will be no class on 3/19, due to Spring Break. Our class meets from 5:30p-7:10p, and our meeting location in Vincent 313.</p>
-<p> </p>
-</div>
-<div id="course-overview" class="section level4">
-<h4>Course Overview</h4>
-<p>The purpose of this course is to introduce the Python programming language as a computing tool for data science. As this is a course for the Master of Financial Mathematics program, all in-class examples and homework assignments will involve financial data.</p>
-<p>There is a diverse mix of student in this course, ranging from full-time MFM students, to finance professionals, to non-finance professionals. I will do my best to accomodate various levels of familiarity with both programming and finance. The more of a beginner you are in either area, the more supplemental reading you will have to do to follow along.</p>
-<p>I will teach this course assuming no prior familiarity with Python. However, as with any programming class, the more prior exposure you have to programming in general, the easier it will be. Students with strong programming backgrounds will also find this coure valuable. They can spend less time working on the foundational skills, and more time digging into the rich financial data sets that we will have at our disposal.</p>
-<p>Here is a very rough course schedule:</p>
+<p><br></p>
+<!-- ### Project Parameters -->
+<p><strong>Assigned:</strong> Tuesday 3/5</p>
+<p><strong>Due Date:</strong> Tuesday 4/2 by 5:30p.</p>
+<p><strong>Format:</strong> e-mail me a one zip files per group containing:</p>
 <ol style="list-style-type: decimal">
-<li><p>Data Analysis &amp; Visualisation (6 weeks): chapters 1-4 of <em>Python Data Science Handbook</em> (<em>PDSH</em>) + finance examples/exercises from Pritam.</p></li>
-<li><p>Group Project (3 weeks): putting together your skills from the first part of the course into a data analysis.</p></li>
-<li><p>Machine Learning (6 weeks): chapter 5 of <em>PDSH</em> + finance examples/exercises from Pritam.</p></li>
+<li>One Jupyter notebook for each of the underlyings you analyzed. Each notebook will contain the analysis for one underlying, including prose that explains code and visualizations. <strong>Every</strong> code cell or visualization should have text cells before and/or after the provide explanation. Any graph should be labeled.</li>
 </ol>
-<p> </p>
+<p>The notebook should be self-contained and should run easily. If your notebook doesn’t run easily, I will not feel obliged to provide feedback.</p>
+<ol style="list-style-type: decimal">
+<li>A folder called <code>project_data</code> that contains all data that goes into your analysis.</li>
+</ol>
+<p><strong>Guidance:</strong> I’m intentionally not giving many speifics instructions for the the project. This is to mimic what you face in real-world data analysis: confusing data sets that you have to try to make sense of. My intention is that you will understand the data from your own exploration and by asking me questions.</p>
+<p>Over the next several weeks, many of the in-class tutorials will be relevant to this project. I will also provide opportunities to ask questions about the project during each class meeting.</p>
+<p><br></p>
+<div id="groups" class="section level4">
+<h4>Groups</h4>
+<ul>
+<li><p>Groups can be of any size (including solo). Have someone from your group e-mail me your group members.</p></li>
+<li><p>Each individual will be assigned one underlying to analyze. You can collectively analyze your underlyings, but turn in one separate notebook per underlying.</p></li>
+<li><p>I will assign each individual an underlying once you e-mail me your groups.</p></li>
+<li><p>If you don’t have a group and would like one, please e-mail me.</p></li>
+</ul>
+<p><br></p>
 </div>
-<div id="hardware-software" class="section level4">
-<h4>Hardware &amp; Software</h4>
-<p>Students are expected to have access to a computer that is capable of running Python 3.7 and Jupyter Notebooks. It will be most convenient if you install the Anaconda distribution. All this software is free.</p>
-<p> </p>
+<div id="self-directed-projects" class="section level4">
+<h4>Self-Directed Projects</h4>
+<p>For those of you choosing to do your own project, that’s great - I truly believe that the best way to learn data analysis is to have a project that you personally care about. However, obviously there is more required of you to determine the steps involved. I am happy to provide guidance in any way that I can.</p>
+<p>For working professionals in the class, if you would like to do something that is directly relevant to your work, that’s great too. If it involves proprietary data, or can only be done on your work PC, that’s fine. Just type up a description in a Jupyter notebook and e-mail it to me.</p>
+<p>If you are going to choose your own project, please send me an e-mail letting me know what it is.</p>
+<p><br></p>
 </div>
-<div id="primary-texts-free" class="section level4">
-<h4>Primary Texts (free)</h4>
-<p>There are two required textbooks that we will systematically work through over the course of the semester. They are both available for free online. Physical copies can also be purchase, if you wish, but buying them is not necessary. (I exclusively use the online versions and I actally prefer it.)</p>
-<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> - Jake Vanderplas</p>
-<p><a href="https://jakevdp.github.io/WhirlwindTourOfPython/">A Whirlwind Tour of Python</a> - Jake Vanderplas</p>
-<p><a href="python_for_finance.pdf">Python for Finance</a> - Yves Hilpisch</p>
-<p> </p>
+<div id="data-set" class="section level4">
+<h4>Data Set</h4>
+<p>This data set consists of the PNLs for selling weekly 30-delta strangles on various underlyings over a period of 5 years. Each individual is responsible for answering the questions below for one underlying (which I will assign to you).</p>
+<p><a href="project_data.zip">Project Data</a></p>
+<p><br></p>
 </div>
-<div id="supplemental-texts-also-free" class="section level4">
-<h4>Supplemental Texts (also free)</h4>
-<p>If you’d like additional resources for Python, the following two are great. As their titles suggest, McKinney’s book focuses on data analysis while Hilpisch teaches Python in a variety of finance contexts.</p>
-<p><a href="python_for_data_analysis.pdf.pdf">Python for Data Analysis</a> - Wes McKinney</p>
-<p><a href="python_for_finance.pdf">Python for Finance</a> - Yves Hilpisch</p>
-<p>Depending on your finance background, you may need to do some additional finance reading. Hull’s book is great. It is currently on it’s 10th Edition, but a PDF of the 9th edition can be found online for free. My book, <em>Learning Options from Data</em>, is a work in progress, but it may still be useful for brushing up on finance concepts.</p>
-<p><a href="hull_9th_edition.pdf">Options, Futures, and Other Derivatives</a> - John C. Hull</p>
-<p><a href="https://pritamdalal.github.io/lod_book/">Learning Options from Data</a> - Pritam Dalal</p>
-<p> </p>
-</div>
-<div id="grading" class="section level4">
-<h4>Grading</h4>
-<p>This is an elective pass/fail course. The determination of pass/fail will be largely based on a good faith effort with the mid-semester analysis project.</p>
-<p> </p>
-</div>
-<div id="project" class="section level4">
-<h4>Project</h4>
-<p>There will be one finance related analysis project in the middle of the semester. You will work on this project in groups. I will determine the groups, and assign you the problem. I am flexible on the content of this project, so if you have something that you would like to work on, please feel free to coordinate with me.</p>
-<p> </p>
-</div>
-<div id="exercises-and-reading" class="section level4">
-<h4>Exercises and Reading</h4>
-<p>I will regulary post exercises (in the form of Jupyter Notebooks) for you to work through. I will also post solutions. I highly recommend working through the homeworks as it will help solidify your understading material.</p>
-<p>I will also assign reading most weeks, and I will teach the next class assuming that you have done the reading.</p>
-<p>Between working through the exercises and completing the reading assignments each week, you should be well prepared for each class.</p>
-</div>
+<div id="questions-to-answer" class="section level4">
+<h4>Questions to Answer</h4>
+<ol style="list-style-type: decimal">
+<li><p>All the underlyings are ETFs. Write a 1-2 sentence summary of the investment strategy of your underlying.</p></li>
+<li><p>Check for large discrepancies between implied vols and the volatility index. How many of these large discrepancies occured during periods of high market turbulence.</p></li>
+<li><p>Identify the five worst months in terms of PNL (group by month/year of expiration date). Determine if losses were for idosyncratic reasons or systemic reasons.</p></li>
+<li><p>Bonus: Demonstrate the presence of the leverage effect in your underlying by regressing returns against changes in the volatility index.</p></li>
+</ol>
+<!-- **Dates/Expirations:** The includes a total of 260 expirations: 1/10/2014-12/28/2018. -->
+<!-- **Underlyings:** There is data for 50 ETF underlyings included in the data set.  You must include at least 20 underlyings in your analysis.  The list of underlyings can be found in `project_underlying.csv`. -->
+<!-- **Trades:** The trades have already been calculated for  `project_trade_master.csv`. (This was the first part of your initial assignment, albeit for a different time period.) -->
+<!-- **PNLs:** The PNLs for the trades have already been calculated for you and can be found in `project_strangle_pnl.csv`. (This was the second part of your initial assignment, albeit for a different time period.)  There are a variety of pnl related columns in this dataset; the only ones that you need to worry about are `dly_opt_pnl`, `ttd_opt_pnl`, and `strangle_unity_mult`. -->
+<!-- **Position Size Scaling:** The prices of our underlyings vary considerably, and therefore so do the prices of their options.  For the backtest, I wanted each strangle for each underlying to be approximately the same size.  In particular, I created a position scaling method that would make each strangle sale to result in about $0.90 in premium. Position scaling data is stored in `project_position_scaling.csv`.  -->
+<!-- Here is some code to see the min, max, and average premium, sold for each variation, for all 50 underlyings. -->
 </div>
 
 

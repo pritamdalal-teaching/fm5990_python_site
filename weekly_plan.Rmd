@@ -127,7 +127,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** 05_iwm_vs_tna, choose groups and e-mail me your groups
+**Coding Exercise:** 05_iwm_vs_tna, choose groups and e-mail me your group members
 
 **Required Reading:** NA
 
@@ -148,9 +148,9 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** TBD
+**Coding Exercise:** 06_option_pnl
 
-**Required Reading:** TBD
+**Required Reading:** P4F 6.2 (financial data - 151-157)
 
 **Supplemental Reading:** TBD
 
