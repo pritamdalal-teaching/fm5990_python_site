@@ -150,7 +150,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Coding Exercise:** 06_option_pnl
 
-**Required Reading:** P4F 6.2 (financial data - 151-157)
+**Required Reading:** PDSH 1.3, P4F 6.2 (financial data - 151-157)
 
 **Supplemental Reading:** TBD
 

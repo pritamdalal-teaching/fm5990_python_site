@@ -62,9 +62,9 @@ This data set consists of the PNLs for selling weekly 30-delta strangles on vari
 #### Questions to Answer
 1. All the underlyings are ETFs.  Write a 1-2 sentence summary of the investment strategy of your underlying.
 
-1. Check for large discrepancies between implied vols and the volatility index. How many of these large discrepancies occured during periods of high market turbulence?
+1. Identify the ten worst months in terms of PNL (group by month/year of expiration date).  Determine if losses were for idiosyncratic reasons or systemic reasons.  Explain your classification for each of a the 10 months with a 1-2 sentence explanation.
 
-1. Identify the five worst months in terms of PNL (group by month/year of expiration date).  Determine if losses were for idosyncratic reasons or systemic reasons.
+1. Check for large discrepancies between implied vols and the volatility index. How many of these large discrepancies occured during periods of high market turbulence?
 
 1. Bonus: Demonstrate the presence of the leverage effect in your underlying by regressing returns against changes in the volatility index.
 
