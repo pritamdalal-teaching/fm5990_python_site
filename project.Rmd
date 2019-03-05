@@ -16,9 +16,11 @@ editor_options:
 
 **Format:** e-mail me a one zip files per group containing:
     
-1. One Jupyter notebook for each of the underlyings you analyzed.  Each notebook will contain the analysis for one underlying, including prose that explains code and visualizations.  **Every** code cell or visualization should have text cells before and/or after the provide explanation.  Any graph should be labeled. 
-
-The notebook should be self-contained and should run easily. If your notebook doesn't run easily, I will not feel obliged to provide feedback.
+1. One Jupyter notebook for each of the underlyings your group analyzed.  
+    - Each notebook will contain the analysis for one underlying, including prose that explains code and visualizations.  
+    - **Every** code cell or visualization should have text cells before and/or after the provide explanation.  
+    - All graph should be labeled. 
+    -The notebook should be self-contained and should run easily. If your notebook doesn't run easily, I will not feel obliged to provide feedback.
 
 1. A folder called `project_data` that contains all data that goes into your analysis.
 

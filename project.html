@@ -303,10 +303,14 @@ $(document).ready(function () {
 <p><strong>Due Date:</strong> Tuesday 4/2 by 5:30p.</p>
 <p><strong>Format:</strong> e-mail me a one zip files per group containing:</p>
 <ol style="list-style-type: decimal">
-<li>One Jupyter notebook for each of the underlyings you analyzed. Each notebook will contain the analysis for one underlying, including prose that explains code and visualizations. <strong>Every</strong> code cell or visualization should have text cells before and/or after the provide explanation. Any graph should be labeled.</li>
-</ol>
-<p>The notebook should be self-contained and should run easily. If your notebook doesn’t run easily, I will not feel obliged to provide feedback.</p>
-<ol style="list-style-type: decimal">
+<li>One Jupyter notebook for each of the underlyings your group analyzed.
+<ul>
+<li>Each notebook will contain the analysis for one underlying, including prose that explains code and visualizations.<br />
+</li>
+<li><strong>Every</strong> code cell or visualization should have text cells before and/or after the provide explanation.<br />
+</li>
+<li>All graph should be labeled. -The notebook should be self-contained and should run easily. If your notebook doesn’t run easily, I will not feel obliged to provide feedback.</li>
+</ul></li>
 <li>A folder called <code>project_data</code> that contains all data that goes into your analysis.</li>
 </ol>
 <p><strong>Guidance:</strong> I’m intentionally not giving many speifics instructions for the the project. This is to mimic what you face in real-world data analysis: confusing data sets that you have to try to make sense of. My intention is that you will understand the data from your own exploration and by asking me questions.</p>
@@ -339,7 +343,7 @@ $(document).ready(function () {
 <h4>Questions to Answer</h4>
 <ol style="list-style-type: decimal">
 <li><p>All the underlyings are ETFs. Write a 1-2 sentence summary of the investment strategy of your underlying.</p></li>
-<li><p>Check for large discrepancies between implied vols and the volatility index. How many of these large discrepancies occured during periods of high market turbulence.</p></li>
+<li><p>Check for large discrepancies between implied vols and the volatility index. How many of these large discrepancies occured during periods of high market turbulence?</p></li>
 <li><p>Identify the five worst months in terms of PNL (group by month/year of expiration date). Determine if losses were for idosyncratic reasons or systemic reasons.</p></li>
 <li><p>Bonus: Demonstrate the presence of the leverage effect in your underlying by regressing returns against changes in the volatility index.</p></li>
 </ol>

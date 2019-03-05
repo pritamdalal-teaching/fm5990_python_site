@@ -77,17 +77,20 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 &nbsp;
 
-#### Announcements
+### Announcements
 
-##### 2/26/2018
+##### 3/4/2019
+- Project page has been added.  Please e-mail me your group members so you can be assigned your underlying.
+
+##### 2/26/2019
 
 - Slides 04 have been added
 
-##### 2/21/2018
+##### 2/21/2019
 
 - Exercises 06 and 07 have been added.
 
-##### 2/19/2018
+##### 2/19/2019
 
 - Added a page called *Reading* that details all books and reading assignments for the course in chronological order.
 
