@@ -135,27 +135,71 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 &nbsp;
 
-#### (07) 03/05 - group projects assigned
+#### (07) 03/05 - group projects assigned and visualziation
 
 
 <span style="color:gray":>*Material Covered:*</span> 
 
 **Topics:** We'll discuss the group projects and start talking about data visualization.
 
-**Slides:** TBD
+**Slides:** NA
 
-**Tutorials:** 13_data_visualization_with_pandas
+**Tutorials:** 13_line_graphs_with_pandas
 
 <span style="color:gray":>*Assignment:*</span> 
 
 **Coding Exercise:** 06_option_pnl
 
-**Required Reading:** PDSH 1.3, P4F 6.2 (financial data - pp151-157)
+**Required Reading:** PDSH 1.3, P4F 6.2 (financial data - pp 151-157)
 
 **Supplemental Reading:** P4DA 8.1-8.2 (pp 219 - 241)
 
 &nbsp;
 
 
+#### (08) 03/12 - more visualization
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** Jupyter tips and tricks (keyboard shortcuts, restart and run all, restart and clear output, move selected cells up/down)
+
+**Slides:** NA
+
+**Tutorials:** 14_bar_charts_with_pandas, 15_scatter_plots_with_pandas, 16_visualization_with_seaborn
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** 07_spy_calls
+
+**Required Reading:** PDSH 
+
+**Supplemental Reading:** [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html)
+
+&nbsp;
+
+
+#### (09) 03/19 - spring break, no class
+
+&nbsp;
+
+#### (10) 03/26 - additional data analysis topics
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** `DataFrame.query()`, discuss the analysis project, non-Jupyter Python.
+
+**Slides:** NA
+
+**Tutorials:** TBD
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** TBD
+
+**Required Reading:** TBD 
+
+**Supplemental Reading:** TBD
 
 

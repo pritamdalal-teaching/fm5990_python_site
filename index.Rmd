@@ -79,6 +79,10 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements
 
+##### 3/12/2019
+- Tutorials 14, 15, 16 added.
+
+
 ##### 3/5/2019
 - Tutorial 13 has been added.
 

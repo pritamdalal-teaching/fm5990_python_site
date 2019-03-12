@@ -345,11 +345,12 @@ $(document).ready(function () {
 <li><p>All the underlyings are ETFs. Write a 1-2 sentence summary of the investment strategy of your underlying.</p></li>
 <li><p>Identify the ten worst months in terms of PNL (group by month/year of expiration date). Determine if losses were for idiosyncratic reasons or systemic reasons. Explain your classification for each of a the 10 months with a 1-2 sentence explanation.</p></li>
 <li><p>Check for large discrepancies between implied vols and the volatility index. How many of these large discrepancies occured during periods of high market turbulence?</p></li>
-<li><p>Bonus: Demonstrate the presence of the leverage effect in your underlying by regressing returns against changes in the volatility index.</p></li>
+<li>Bonus: Demonstrate the presence of the leverage effect in your underlying by:
+<ol style="list-style-type: lower-alpha">
+<li>regressing returns against changes in the volatility index (implied)</li>
+<li>regressing returns against subsequent realized volatility (realized)</li>
+</ol></li>
 </ol>
-</div>
-<div id="test-for-brian" class="section level2">
-<h2>TEST FOR BRIAN</h2>
 <!-- **Dates/Expirations:** The includes a total of 260 expirations: 1/10/2014-12/28/2018. -->
 <!-- **Underlyings:** There is data for 50 ETF underlyings included in the data set.  You must include at least 20 underlyings in your analysis.  The list of underlyings can be found in `project_underlying.csv`. -->
 <!-- **Trades:** The trades have already been calculated for  `project_trade_master.csv`. (This was the first part of your initial assignment, albeit for a different time period.) -->
