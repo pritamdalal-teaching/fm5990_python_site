@@ -172,9 +172,9 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Coding Exercise:** 07_spy_calls
 
-**Required Reading:** PDSH 
+**Required Reading:** PDSH 4.14 
 
-**Supplemental Reading:** [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html)
+**Supplemental Reading:** P4F 121-127 (other plot types); [Official Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html)
 
 &nbsp;
 
@@ -188,11 +188,11 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Material Covered:*</span> 
 
-**Topics:** `DataFrame.query()`, discuss the analysis project, non-Jupyter Python.
+**Topics:** discuss the analysis project, `DataFrame.query()`, `DataFrame.eval()`, simulation
 
 **Slides:** NA
 
-**Tutorials:** TBD
+**Tutorials:** 17_eval_query, 18_simulation
 
 <span style="color:gray":>*Assignment:*</span> 
 
@@ -200,6 +200,6 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Required Reading:** TBD 
 
-**Supplemental Reading:** TBD
+**Supplemental Reading:** P4F pp 59-68 (Monte Carlo Simulation); P4F pp 468-470 (Random Generation)
 
 
