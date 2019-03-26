@@ -188,11 +188,11 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Material Covered:*</span> 
 
-**Topics:** discuss the analysis project, `DataFrame.query()`, `DataFrame.eval()`, simulation
+**Topics:** discuss the analysis project, simulation, set up VS Code
 
 **Slides:** NA
 
-**Tutorials:** 17_eval_query, 18_simulation
+**Tutorials:** 17_simulation
 
 <span style="color:gray":>*Assignment:*</span> 
 
@@ -200,6 +200,6 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 **Required Reading:** TBD 
 
-**Supplemental Reading:** P4F pp 59-68 (Monte Carlo Simulation); P4F pp 468-470 (Random Generation)
+**Supplemental Reading:** P4F pp 59-68 (Monte Carlo Simulation); P4F pp 266-287 (Random Generation)
 
 

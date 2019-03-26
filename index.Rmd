@@ -79,9 +79,14 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements
 
+##### 3/26/2019
+- Tutorials 17 added.
+
+##### 3/19/2019
+- No class, Spring break.
+
 ##### 3/12/2019
 - Tutorials 14, 15, 16 added.
-
 
 ##### 3/5/2019
 - Tutorial 13 has been added.
@@ -100,4 +105,3 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 ##### 2/19/2019
 
 - Added a page called *Reading* that details all books and reading assignments for the course in chronological order.
-
