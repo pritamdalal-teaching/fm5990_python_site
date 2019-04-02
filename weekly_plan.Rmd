@@ -196,10 +196,33 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** TBD
+**Coding Exercise:** NA
 
-**Required Reading:** TBD 
+**Required Reading:** NA 
 
 **Supplemental Reading:** P4F pp 59-68 (Monte Carlo Simulation); P4F pp 266-287 (Random Generation)
+
+
+&nbsp;
+
+#### (11) 04/02 - python, ipython, and jupyter
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** discuss the history of IPython and the Jupyter Project
+
+**Slides:** 05_python_ipython_jupyter
+
+**Tutorials:** 18_simulation; package/01_hello_world; package/02_backtest_py_dev; package/03_toy_wrangler
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** TBD
+
+**Required Reading:** PDSH Chapter 1 
+
+**Supplemental Reading:** [Real Python Packages Tutorial](https://realpython.com/python-modules-packages/); [IPython or Jupyter?](https://www.datacamp.com/community/blog/ipython-jupyter)
+
 
 
