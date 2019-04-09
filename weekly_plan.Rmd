@@ -42,7 +42,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 &nbsp;
 
-#### (02) 01/29 - **cancelled**
+#### (02) 01/29 - **cancelled due to weather**
 
 
 &nbsp;
@@ -218,11 +218,38 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** TBD
+**Coding Exercise:** NA
 
 **Required Reading:** PDSH Chapter 1 
 
 **Supplemental Reading:** [Real Python Packages Tutorial](https://realpython.com/python-modules-packages/); [IPython or Jupyter?](https://www.datacamp.com/community/blog/ipython-jupyter)
+
+
+
+
+&nbsp;
+
+#### (11) 04/09 - regression and `sklearn`
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** regression as an introduction to machine learning with `sklearn`
+
+**Slides:** NA
+
+**Tutorials:** 19_regression
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** 08_regression_on_EWZ
+
+**Required Reading:** PDSH 5.1-5.4, 5.6 
+
+**Supplemental Reading:** NA
+
+
+
 
 
 

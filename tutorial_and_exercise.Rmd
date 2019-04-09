@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 At any given time, all completed tutorials and exercises can be downloaded by clicking on the link below.  At the start of each class, you will likely have to download the latest set of tutorials.  The majority of class time will be spent working through tutorials together.
 
-[All Tutorials and Exercises - Updated 04/02/2019](fm5990_python_tutorial_and_exercise_20190402.zip)
+[All Tutorials and Exercises - Updated 04/09/2019](fm5990_python_tutorial_and_exercise_20190409.zip)
 
 &nbsp;
 
@@ -62,6 +62,8 @@ At any given time, all completed tutorials and exercises can be downloaded by cl
 
 18 - `pandas_datareader`
 
+19 - regression with `sklearn`
+
 &nbsp;
 
 #### Exercises
@@ -79,3 +81,5 @@ At any given time, all completed tutorials and exercises can be downloaded by cl
 06 - calculating pnl on an option
 
 07 - analysis on SPY calls
+
+08 - regression on EWZ

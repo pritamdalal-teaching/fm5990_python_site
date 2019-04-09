@@ -79,10 +79,12 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 
 ### Announcements
 
+#### 4/9/2019
+- Tutorial 19 and Exercise 08 added.
+
+
 #### 4/2/2019
 - Tutorial 18, package folder, and Slides 05 have been added.
-
-- I will post a new exercise later this week.
 
 ##### 3/26/2019
 - Tutorials 17 added.
