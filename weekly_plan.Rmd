@@ -249,6 +249,50 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 **Supplemental Reading:** NA
 
 
+&nbsp;
+
+#### (12) 04/16 - k nearest neighbors
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** classification with k-nearest-neighbors
+
+**Slides:** NA
+
+**Tutorials:** 20_k_nearest_neighbors
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** NA
+
+**Required Reading:** PDSH 5.4 
+
+**Supplemental Reading:** NA
+
+
+&nbsp;
+
+#### (13) 04/23 - principal components analysis
+
+
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** wrap-up knn and then discuss PCA
+
+**Slides:** NA
+
+**Tutorials:** 21_pca
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** NA
+
+**Required Reading:** PDSH 5.9 
+
+**Supplemental Reading:** NA
+
+
 
 
 

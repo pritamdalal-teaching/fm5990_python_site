@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 At any given time, all completed tutorials and exercises can be downloaded by clicking on the link below.  At the start of each class, you will likely have to download the latest set of tutorials.  The majority of class time will be spent working through tutorials together.
 
-[All Tutorials and Exercises - Updated 04/16/2019](fm5990_python_tutorial_and_exercise_20190416.zip)
+[All Tutorials and Exercises - Updated 04/23/2019](fm5990_python_tutorial_and_exercise_20190423.zip)
 
 &nbsp;
 
@@ -65,6 +65,8 @@ At any given time, all completed tutorials and exercises can be downloaded by cl
 19 - regression with `sklearn`
 
 20 - k-nearest-neighbors `sklearn`
+
+21 - principal components analysis
 
 &nbsp;
 
