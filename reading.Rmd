@@ -17,14 +17,17 @@ output:
 This purpose of this page is to list all reading assignments by subject, and roughly in chronological order.  Here is a list of the texts that will be referenced throughout the course.
 
 
-[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake Vanderplas
+[Python Data Science Handbook (PDSH)](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake Vanderplas
 
 
-[A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
+[A Whirlwind Tour of Python (PDSH)](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake Vanderplas
 
 [Python for Data Analysis](python_for_data_analysis.pdf.pdf) - Wes McKinney
 
 [Python for Finance](python_for_finance.pdf) - Yves Hilpisch
+
+[Introduction to Statistical Learning (ISLR)](introduction_to_statistical_learning.pdf) - James, Witten, Hastie, Tibshirani
+
 
 [Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
 
@@ -33,48 +36,105 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 &nbsp;
 
-##### `numpy` - PDSH sections
+##### Numpy
 
-2.1 understanding data-types in ipython
+*PDSH* - 2.1 - understanding data-types in ipython
 
-2.2 the basics of numpy arrays
+*PDSH* - 2.2 - the basics of numpy arrays
 
-2.3 computations on numpy arrays: universal functions
+*PDSH* - 2.3 - computations on numpy arrays: universal functions
 
-2.4 aggregations: min, max, and everthing in between
+*PDSH* - 2.4 - aggregations: min, max, and everthing in between
 
-2.5 computations on arrays: broadcasting
+*PDSH* - 2.5 - computations on arrays: broadcasting
 
-2.6 comparison, mask, and boolean logic
+*PDSH* - 2.6 - comparison, mask, and boolean logic
 
-2.7 fancy indexing
-
-&nbsp;
-
-##### `pandas` - PDSH sections
-
-3.1 introduction to pandas objects
-
-3.2 data indexing and selection
-
-3.3 operating on data in pandas
-
-3.7 combining datasets: merge and join
-
-3.8 aggregation and grouping
-
-3.12 high-performance pandas: eval() and query()
+*PDSH* - 2.7 - fancy indexing
 
 
 &nbsp;
 
-##### `pandas` - P4F sections
+##### Basic Coding Topics
 
-6.1 - `pandas` basics (pp 137 - 151)
+*WTP* - 7 - built-in data structures
+
+*WTP* - 8 - control flow statements
+
+*WTP* - 9 - defining functions
+
+&nbsp;
+
+##### Pandas
+
+*PDSH* - 3.1 introduction to pandas objects
+
+*PDSH* - 3.2 data indexing and selection
+
+*PDSH* - 3.3 operating on data in pandas
+
+*PDSH* - 3.7 combining datasets: merge and join
+
+*PDSH* - 3.8 aggregation and grouping
+
+*PDSH* - 3.12 high-performance pandas: eval() and query()
+
+*Python for Finance* - 6.1 - `pandas` basics (pp 137 - 151)
 
 
 &nbsp;
 
-##### Data Visualization - P4F sections
 
-5.1 - two dimensional plotting (pp 109 - 128)
+##### Data Visualization
+
+*Python for Finance* - 5.1 - two dimensional plotting (pp 109 - 128)
+
+*PDSH* - 4.14 - visualization with seaborn
+
+
+
+
+&nbsp;
+
+##### Monte Carlo Simulation
+
+*Python for Finance* - 3.2 - monte carlo simulation (pp 59 - 88)
+
+
+&nbsp; 
+
+##### Python, IPython, Jupyter
+
+*WTP* - 2 - how to run python code
+
+*PDSH* - chapter 1 - ipython: beyond normal python
+
+*Python for Data Analysis* - chapter 3 (pp 45 - 78)
+
+[Modules and Packages - An Introduction](https://realpython.com/python-modules-packages/) - an article that defines a module and a package.  I recommend working through all the examples using the python interactive console.
+
+[IPython or Jupyter?](https://www.datacamp.com/community/blog/ipython-jupyter) - an article on the shared history of the IPython and Jupyter projects.
+
+
+
+&nbsp; 
+
+##### Machine Learning
+
+*PDSH* - 5.1 - what is machine learing
+
+*PDSH* - 5.2 - introducing scikit-learn
+
+*PDSH* - 5.3 - hyperparameters and model validation
+
+*PDSH* - 5.4 - feature engineering
+
+*PDSH* - 5.6 - in depth: linear regression
+
+*PDSH* - 5.9 - principal components analysis
+
+<!-- *ISLR* - chapter 2 - statistical learning (pp 15 - 52)  -->
+
+*ISLR* - 3.1 - simple linear regression (pp 59 - 71) 
+
+*ISLR* - 10.2 - principal components analysis (pp 374 - 385)
