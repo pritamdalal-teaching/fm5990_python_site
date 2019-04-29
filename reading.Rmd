@@ -31,7 +31,7 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 [Options, Futures, and Other Derivatives](hull_9th_edition.pdf) - John C. Hull
 
-[Learning Options from Data](https://pritamdalal.github.io/lod_book/) - Pritam Dalal
+[R for Finance](https://pritamdalal.github.io/rff_book/) - Pritam Dalal
 
 
 &nbsp;
@@ -67,19 +67,33 @@ This purpose of this page is to list all reading assignments by subject, and rou
 
 ##### Pandas
 
-*PDSH* - 3.1 introduction to pandas objects
+*PDSH* - 3.1 - introduction to pandas objects
 
-*PDSH* - 3.2 data indexing and selection
+*PDSH* - 3.2 - data indexing and selection
 
-*PDSH* - 3.3 operating on data in pandas
+*PDSH* - 3.3 - operating on data in pandas
 
-*PDSH* - 3.7 combining datasets: merge and join
+*PDSH* - 3.7 - combining datasets: merge and join
 
-*PDSH* - 3.8 aggregation and grouping
+*PDSH* - 3.8 - aggregation and grouping
 
-*PDSH* - 3.12 high-performance pandas: eval() and query()
+<!-- *PDSH* - 3.12 - high-performance pandas: eval() and query() -->
 
 *Python for Finance* - 6.1 - `pandas` basics (pp 137 - 151)
+
+
+
+&nbsp;
+
+##### Finance Background
+
+*R for Finance* - Chapter 2 - options 101
+
+*R for Finance* - Chapter 5 - profit and loss
+
+*Hull (9th Ed)* - Chapter 19 - the greek letters (pp 399-430) 
+
+
 
 
 &nbsp;

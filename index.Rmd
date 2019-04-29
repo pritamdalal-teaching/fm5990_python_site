@@ -80,6 +80,13 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 ### Announcements
 
 
+#### 4/29/2019
+- Exercises 9 and 10 added.
+
+- Reading page has been updated to reflect all of the course material.
+
+
+
 #### 4/23/2019
 - Tutorial 21 added.
 
@@ -95,28 +102,36 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 #### 4/2/2019
 - Tutorial 18, package folder, and Slides 05 have been added.
 
+
 ##### 3/26/2019
 - Tutorials 17 added.
+
 
 ##### 3/19/2019
 - No class, Spring break.
 
+
 ##### 3/12/2019
 - Tutorials 14, 15, 16 added.
+
 
 ##### 3/5/2019
 - Tutorial 13 has been added.
 
+
 ##### 3/4/2019
 - Project page has been added.  Please e-mail me your group members so you can be assigned your underlying.
+
 
 ##### 2/26/2019
 
 - Slides 04 have been added
 
+
 ##### 2/21/2019
 
 - Exercises 06 and 07 have been added.
+
 
 ##### 2/19/2019
 

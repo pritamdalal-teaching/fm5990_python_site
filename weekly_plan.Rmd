@@ -264,7 +264,7 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** NA
+**Coding Exercise:** 09_knn_on_vix
 
 **Required Reading:** PDSH 5.4 
 
@@ -286,14 +286,32 @@ This page will serve as a more detailed plan for weeks to come, and also a recor
 
 <span style="color:gray":>*Assignment:*</span> 
 
-**Coding Exercise:** NA
+**Coding Exercise:** 10_sector_pca
 
 **Required Reading:** PDSH 5.9 
 
 **Supplemental Reading:** NA
 
 
+&nbsp;
+
+#### (14) 04/30 - TBD
 
 
+<span style="color:gray":>*Material Covered:*</span> 
+
+**Topics:** TBD
+
+**Slides:** TBD
+
+**Tutorials:** NA
+
+<span style="color:gray":>*Assignment:*</span> 
+
+**Coding Exercise:** NA
+
+**Required Reading:** NA
+
+**Supplemental Reading:** NA
 
 
