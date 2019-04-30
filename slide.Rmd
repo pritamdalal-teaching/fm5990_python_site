@@ -19,7 +19,6 @@ title: ""
 
 [05 - Python, IPython, Jupyter](slide/05_python_ipython_jupyter.pdf)
 
-
-
+[06 - Course Wrap-Up](slide/06_course_wrap_up.pdf)
 
 

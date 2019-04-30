@@ -80,6 +80,11 @@ gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
 ### Announcements
 
 
+#### 4/30/2019
+- Final day of class - thanks for a great semester.
+
+- Slide 6 - has been added.
+
 #### 4/29/2019
 - Exercises 9 and 10 added.
 
